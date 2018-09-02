@@ -58,17 +58,20 @@ function renderbook {
 		"\def\languagename{$LANGUAGE} \input{book.tex}"
 
 	#Testing
-	evince book.pdf
+	if [ -x "$(command -v evince)" ]; then
+		evince book.pdf
+	fi
 
 	#Move resulting book to target location
 	mv book.pdf ../../releases/print/sobtec2-$LANGUAGE.pdf
-	echo "Another sobtec book was made print-ready!"
-	ls ../../releases/print/sobtec2-$LANGUAGE.pdf
-
 	#clean-up pandoc and tex build blurbs.
 	rm -rf tex.d *.log *.out *.toc *.aux *.synctex.gz
 
 	popd
+
+	echo "Another sobtec book was made print-ready!"
+	ls ../releases/print/sobtec2-$LANGUAGE.pdf
+
 }
 
 #Transform the markdown files into TeX-format for further processing
