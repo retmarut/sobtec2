@@ -1,26 +1,11 @@
 % Lot's of language independant stuff for
 % consistancy and fancyness.
 
-\usepackage{lmodern}
-
 % insert custom language by passing it through the languagename variable
 \usepackage[\languagename]{babel}
 
 % testing
 %\usepackage{showframe}
-
-% page layout headers&footers, pagenumbering layout
-\usepackage[headheight=30pt,height=6.5in]{geometry}
-
-% headers and footers
-\usepackage{fancyhdr}
-\fancyhf{} % clear 
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\sectionmark}[1]{\markboth{#1}{}} % set the \leftmark
-%\fancyhead[L]{\leftmark} % 1. sectionname
-\fancyfoot[LE,RO]{\thepage}
-\pagestyle{fancy}
-\fancypagestyle{plain}{\pagestyle{fancy}}
 
 % for tables 
 \usepackage{longtable}
@@ -52,38 +37,12 @@
  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
 \fi
 
-% use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-
-% use microtype if available
-% http://www.khirevich.com/latex/microtype/
-\IfFileExists{microtype.sty}{
-	\usepackage{microtype}
-	\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-
 % Documents frequently uses URL in footnotes
-%\usepackage[hyphenbreaks]{breakurl}
+\usepackage[hyphenbreaks]{breakurl}
 \usepackage[hyphens]{url}
 \usepackage{hyperref}
 \hypersetup{unicode=false, pdfborder={0 0 0}}
 \urlstyle{same}  % don't use monospace font for urls
-
-\usepackage[parfill]{parskip}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}
-  \setlength{\parskip}{0pt}}
-
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
- \let\oldparagraph\paragraph
- \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
- \let\oldsubparagraph\subparagraph
- \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
 
 % no section and sub-section numbering anywhere
 \setcounter{secnumdepth}{0}
@@ -92,4 +51,3 @@
 %always start sections on odd pages (right)
 \let\oldsection\section
 \def\section{\cleardoublepage\oldsection}
-

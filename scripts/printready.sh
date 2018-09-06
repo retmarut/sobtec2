@@ -62,16 +62,19 @@ function renderbook {
 		evince book.pdf
 	fi
 
+	#Output book with front and back covers for the web
+	printWeb $1
+
 	#Move resulting book to target location
-	mv book.pdf ../../releases/print/sobtec2-$LANGUAGE.pdf
+	DEST=../../releases/print/sobtec2-$LANGUAGE.pdf
+	mv book.pdf $DEST
+	echo "Another sobtec book was made print-ready!"
+	ls $DEST
+
 	#clean-up pandoc and tex build blurbs.
 	rm -rf tex.d *.log *.out *.toc *.aux *.synctex.gz
 
 	popd
-
-	echo "Another sobtec book was made print-ready!"
-	ls ../releases/print/sobtec2-$LANGUAGE.pdf
-
 }
 
 #Transform the markdown files into TeX-format for further processing
@@ -96,6 +99,29 @@ function manglePandocResults {
 	sed -i '0,/: /s//:\\\\/' tex.d/01preface.tex
 	sed -i '0,/: /s//:\\\\/' tex.d/01prefacio.tex
 	sed -i '0,/: /s//:\\\\/' tex.d/02intro.tex
+}
+
+function printWeb {
+	#cut out the first page of the book to replace it with 
+	#the language-dependent pre-rendered frontcover
+	pdftk book.pdf cat 2-end output preweb.pdf
+
+	#compress the front and back images slightly
+	convert ../../contrib/gfx/covers/front-${1^^}-600dpi.png \
+		-geometry x90% front.pdf
+	convert ../../contrib/gfx/covers/back-${1^^}-600dpi.png \
+		-geometry x90% back.pdf
+
+	pdftk front.pdf \
+		preweb.pdf \
+		back.pdf \
+		cat output web.pdf
+
+	mv web.pdf \
+		../../releases/web/sobtech2-${1^^}-with-covers-web-150dpi-2018-09-10-v2.pdf
+	
+	#cleaning up
+	rm preweb.pdf front.pdf back.pdf
 }
 
 #################################################

@@ -1,4 +1,4 @@
-\documentclass[a5paper,11pt]{book}
+\documentclass[a5paper,11pt]{scrbook}
 \input{../../contrib/dtp/preamble}
 
 \input{title}
@@ -9,7 +9,6 @@
 \begin{document}
 
 \frontmatter
-\pagestyle{empty}
 \begin{center}
  \hspace{0pt}
   \vfill
@@ -20,25 +19,17 @@
 \end{center}
 \pagebreak
 
-%\pagestyle{empty}
 \maketitle
 
-\pagestyle{empty}
 \include{copyright}
 
-\pagestyle{fancy}
-
 \tableofcontents
-\thispagestyle{fancy}
-
 
 \chapter{\prefacename}
-\thispagestyle{fancy}
 \include{tex.d/01preface}
 
 \mainmatter
 \chapter{Inleiding}
-\thispagestyle{fancy}
  \include{tex.d/02intro}
 
 \chapter{De karakterisering van initiatieven van technologische soevereiniteit}
@@ -55,6 +46,7 @@
  \include{tex.d/11leap}
  \include{tex.d/12chatons}
 
+\backmatter
 \chapter{Credits}
  \include{tex.d/13credits}
 
