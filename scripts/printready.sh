@@ -50,12 +50,11 @@ function renderbook {
 	#Generate docs as separate latex section documents for inclusion later on
 	prepareParts
 
-	#Some pandoc-results need mangling for tables and headings...
+	#Some pandoc-results need mangling for section titles, tables and headings...
 	manglePandocResults
 
 	#Generate full book in PDF format including title, TOC, etc.
-	texliveonfly \
-		"\def\languagename{$LANGUAGE} \input{book.tex}"
+	texliveonfly "\def\languagename{$LANGUAGE} \input{book.tex}"
 
 	#Testing
 	if [ -x "$(command -v evince)" ]; then
