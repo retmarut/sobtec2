@@ -9,7 +9,7 @@
 **Traductions**:
 
  * ***Anglais***: Kate Wilson
- * ***Dutch***: Kel, Ivom, Winston, Ptrc, Lara, Kwadro
+ * ***Dutch***: Kel, Ivom, Winston, Ptrc, Lara, Kwadro, Polan
  * ***Espagnol***: Ana A. Romero, Djaván Adler, Germán
  * ***Français***: Bruno Lakmeche, Lunar
  * ***Italiaans***: Ignifugo, Zyev, Swasp, Samba, Largo

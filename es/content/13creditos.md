@@ -10,7 +10,7 @@
 
  * ***Castellano***: Ana A. Romero, Djaván Adler, Germán
  * ***Francés***: Bruno Lakmeche, Lunar
- * ***Holandés***: Kel, Ivom, Winston, Ptrc, Lara, Kwadro
+ * ***Holandés***: Kel, Ivom, Winston, Ptrc, Lara, Kwadro, Polan
  * ***Inglés***: Kate Wilson
  * ***Italiano***: Ignifugo, Zyev, Swasp, Samba, Largo
 

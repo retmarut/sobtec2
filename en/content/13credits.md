@@ -8,7 +8,7 @@
 
 **Translation**:
 
- * ***Dutch***: Kel, Ivom, Winston, Ptrc, Lara, Kwadro
+ * ***Dutch***: Kel, Ivom, Winston, Ptrc, Lara, Kwadro, Polan
  * ***English***: Kate Wilson
  * ***French***: Bruno Lakmeche, Lunar
  * ***Italian***: Ignifugo, Zyev, Swasp, Samba, Largo

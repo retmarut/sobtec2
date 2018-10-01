@@ -11,7 +11,7 @@
  * ***Engels***: Kate Wilson
  * ***Frans***: Bruno Lakmeche, Lunar
  * ***Italiaans***: Ignifugo, Zyev, Swasp, Samba, Largo
- * ***Nederlands***: Kel, Ivom, Winston, Ptrc, Lara, Kwadro
+ * ***Nederlands***: Kel, Ivom, Winston, Ptrc, Lara, Kwadro, Polan
  * ***Spaans***: Ana A. Romero, Djaván Adler, Germán
 
 **Redactie**:
