@@ -1,11 +1,11 @@
 # Versleutelen van mails met bruikbare tools
 ## De massale toepassing van versleutelingstechnologieën
 
-***Kali Kaneko****
+***Kali Kaneko***
 
 ![](../../contrib/gfx/illustrations/leap-halfsize.png)
 
-Encryptie is de toepassing van wiskunde om te verzekeren dat onze informatie enkel* toegankelijk is voor de personen of machines met wie we het willen delen. Encryptie heeft een lange geschiedenis. Protocollen voor het verzenden van versleutelde informatie, zonder eerst een sleutel overeen te komen om de data te decrypteren, bestaat al ongeveer 35 jaar. Het mijlpaal-programma Pretty Good Privacy, vaak afgekort als PGP, maakte sterke encryptie van e-mail met garanties voor vertrouwelijkheid, authenticatie en integriteit op grote schaal beschikbaar voor gebruikers en ontwikkelaars in 1991 [^0].
+Encryptie is de toepassing van wiskunde om te verzekeren dat onze informatie *enkel* toegankelijk is voor de personen of machines met wie we het willen delen. Encryptie heeft een lange geschiedenis. Protocollen voor het verzenden van versleutelde informatie, zonder eerst een sleutel overeen te komen om de data te decrypteren, bestaat al ongeveer 35 jaar. Het mijlpaal-programma Pretty Good Privacy, vaak afgekort als PGP, maakte sterke encryptie van e-mail met garanties voor vertrouwelijkheid, authenticatie en integriteit op grote schaal beschikbaar voor gebruikers en ontwikkelaars in 1991 [^0].
 
 De relatieve populariteit van PGP en de daaropvolgende standaardisatie is vaak afgeschilderd als een overwinning voor de cypherpunks (cryptografie-activisten) tijdens de Eerste Crypto oorlogen [^1].  Dus, wat zijn de problemen die verhinderen dat e-mailversleuteling nog steeds niet door de kritische en grote massa wordt aanvaard?  Waarom kon de gerespecteerde journalist, Greenwald, een e-mail niet versleutelen wanneer er contact met hem werd opgenomen door zijn bron Snowden, de analist die voor de NSA werkte [^2]?
 
