@@ -66,6 +66,7 @@ function renderbook {
 	ls ../../releases/print/sobtec2-$LANGUAGE.pdf
 
 	#clean-up pandoc and tex build blurbs.
+	set -x
 	rm -rf tex.d *.log *.out *.toc *.aux *.synctex.gz
 
 	popd
