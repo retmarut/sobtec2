@@ -1,6 +1,6 @@
 % Technological Sovereignty, Volume 2
-% 2019-04-24 15:20-15:40
-% ivom @ newline Gent
+% 2019-04-13 
+% 
 
 ##
 
@@ -32,7 +32,7 @@
  * COATI, Europe;
  * and others.
  
-## Technology Sovereignty
+## Technological Sovereignty
 
  #. Temporality: “Taking your time”
  #. We: “Sovereign”
@@ -75,13 +75,13 @@ Characterising technological sovereignty initiatives
 * Keeping technological sovereignty /
    The case of IRC
 * Hacklabs to technological cooperatives /
-   Technology Sovereignty Cooperatives
+   Technological Sovereignty Cooperatives
 * From appropriate technologies to re-appropriated technologies /
    Appropriate technologies
 
 ## Part 2
 <!--: Characterising technological sovereignty-->
-Developments of technology sovereignty
+Developments of technological sovereignty
 
 * A seed sprouts when it is sown in fertile soil /
    Rhyzomatica, community mobile phone network
